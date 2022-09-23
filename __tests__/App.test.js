@@ -1,8 +1,8 @@
 import React from "react";
 import { render, fireEvent, waitFor, screen } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
-import App from "../App";
-import Person from "../components/Person";
+import App from "../src/App";
+import Person from "../src/Person";
 
 test( 'checking app page with person component', () => {
     render( <App /> );
