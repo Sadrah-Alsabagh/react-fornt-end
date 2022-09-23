@@ -10,7 +10,7 @@ test( 'checking app page with person component', () => {
     expect( person ).toBeInTheDocument();
 } );
 
-test( 'checking app name', () => {
+test( 'checkigng app name', () => {
     render( <App /> );
     const appName = screen.getByTestId("appName");
     expect( appName ).toHaveTextContent('Identity Form App');
